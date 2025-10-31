@@ -35,7 +35,11 @@ namespace ProgramaCursos
         {
             new FormInscricoes().ShowDialog();
         }
+
+        private void btnCursos_Click_1(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
-    }
-}
+   
