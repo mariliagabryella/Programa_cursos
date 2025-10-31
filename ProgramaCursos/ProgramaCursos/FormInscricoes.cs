@@ -19,6 +19,14 @@ namespace ProgramaCursos
 
         private void FormInscricoes_Load(object sender, EventArgs e)
         {
+            // TODO: esta linha de código carrega dados na tabela 'database1DataSet.Inscricoes'. Você pode movê-la ou removê-la conforme necessário.
+
+        }
+
+        private void inscricoesBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.inscricoesBindingSource.EndEdit();
 
         }
     }

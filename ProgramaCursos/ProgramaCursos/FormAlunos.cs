@@ -57,7 +57,8 @@ namespace ProgramaCursos
         private void FormAlunos_Load_1(object sender, EventArgs e)
         {
             // TODO: esta linha de código carrega dados na tabela 'database1DataSet.Alunos'. Você pode movê-la ou removê-la conforme necessário.
-           
+            // TODO: esta linha de código carrega dados na tabela 'database1DataSet.Alunos'. Você pode movê-la ou removê-la conforme necessário.
+
         }
     }
 }

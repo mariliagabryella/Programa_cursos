@@ -16,5 +16,17 @@ namespace ProgramaCursos
         {
             InitializeComponent();
         }
+
+        private void cursosBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.cursosBindingSource.EndEdit();
+
+        }
+
+        private void FormCursos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
